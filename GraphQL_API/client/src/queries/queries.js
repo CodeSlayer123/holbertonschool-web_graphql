@@ -69,3 +69,12 @@ const getTaskDetailQuery = gql `
     }
 
 `
+
+module.exports = {
+    getProjectsQuery,
+    getTasksQuery,
+    addTaskMutation,
+    addProjectMutation,
+    getTaskDetailQuery
+    
+}
